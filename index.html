@@ -6,7 +6,21 @@
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
+  
+<script>
+function dark() {
+  document.getElementById("background").style.backgroundColor = "black";
+}
+</script>
 
+<script>
+function light() {
+  document.getElementById("background").style.backgroundColor = "white";
+}
+</script>
+
+<button type="button" onclick="light()">Light mode</button>
+<button type="button" onclick="dark()">Dark mode</button>
 <h1>Welcome to my site!</h1>
 <p><i>I want some libInstantPudding.dylib</i></p>
 <img src="/images/PRIconInstantPudding.png" alt="InstantPudding" width="200" height="200">
