@@ -3,10 +3,12 @@ body {
   background-color: black;
 }
 h1 {
+  text-align: center;
   color: violet;
   font-family: monaco;
 }
 p {
+  text-align: center;
   color: violet;
   font-family: monaco;
 } 
